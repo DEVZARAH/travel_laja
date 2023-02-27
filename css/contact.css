@@ -102,16 +102,17 @@ font-size: 15px;
     align-items: center;
     justify-content: space-around;
     margin: 10px 0px;
-    border: 2px solid red;
   }
   .holder{
-    border: 2px solid green;
     padding: 10px 0px;
     width: 500px;
   }
 .time{
-  border: 2px solid yellow;
+
   margin-right: 30px;
   width: 150px;
+}
+.timee{
+  margin-right: 40px;
 }
 }
