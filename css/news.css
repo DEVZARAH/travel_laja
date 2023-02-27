@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+header a {
+  color: gray;
+}
+header {
+  background-color: white;
+  color: gray;
+  padding-top: 0px;
+  padding: 10px 70px;
+}
+.logo {
+  color: gray;
+}
+.fBgNews {
+  background-image: url("../asset/news-bg.png");
+  background-repeat: no-repeat;
+  padding: 10px 70px;
+  border: 2px solid transparent;
+}
+.imgDown {
+  margin-top: 200px;
+  color: white;
+  font-size: 25px;
+}
+.newFirst {
+  margin: 20px 0px;
+  text-align: center;
+  margin: 20px 0px;
+  color: gray;
+}
+.newFirst a{
+  margin: 0px 5px;
+  font-weight: bold;
+}
+.none{
+  color: black;
+}
+.btnnew{
+  padding: 10px 20px;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+}
+.newFirst h3{
+  margin: 10px 0px;
+  font-size: 25px;
+}
+.col{
+color: aqua;
+font-weight: bold;
+}
+.newFirst p{
+  margin: 20px 0px;
+}
+.newFirst a{
+  margin: 0px 15px;
+  /* color: black; */
+}
+.picNews {
+  padding: 10px 70px;
+  color: black;
+  font-size: 20px;
+}
+.differ {
+  color: gray;
+  font-size: 16px;
+}
+.conNews {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+}
+.minconNews {
+  margin: 10px 0px;
+}
+.minconNews p {
+  margin: 10px 0;
+}

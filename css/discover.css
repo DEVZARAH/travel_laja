@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header a {
+  color: aquamarine;
+}
+header {
+  background-color: white;
+  color: aquamarine;
+  padding-top: 0px;
+  padding: 10px 70px;
+}
+.logo {
+  color: aquamarine;
+}
+.show{
+  color: white;
+}
+p {
+  font-size: 19px;
+}
+.fBgDis {
+  background-image: url("../asset/discover-bg.png");
+  background-repeat: no-repeat;
+  /* background-size: 1700px; */
+  border: 2px solid transparent;
+  padding: 10px 70px;
+}
+.imgDown {
+  margin-top: 200px;
+  color: white;
+  font-size: 25px;
+}
+.secondDis {
+  margin: 0px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 70px;
+}
+.secondTextDis p{
+  margin: 15px 0px;
+  line-height: 25px;
+}
+.flexone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 70px;
+}
+.one1 {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 180px;
+}
+.oneflexx{
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+.col{
+  color: aquamarine;
+}
+.halfText {
+  width: 700px;
+  line-height: 25px;
+  margin: 15px 0px;
+}
+.sameimg {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pos {
+  border-radius: 10px;
+  width: 100%;
+}
+.same {
+  position: relative;
+}
+.try {
+  position: absolute;
+  top: 10px;
+  margin-left: 5px;
+  color: white;
+}
+.try p {
+  font-size: 22.4px;
+  margin-top: 15px;
+  color: white;
+}
+.none {
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  background-color: aquamarine;
+}
+.imgthird {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+@media screen and (max-width:600px) {
+  .secondDis {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  /* padding: 10px 70px; */
+}
+.flexone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  /* padding: 10px 70px; */
+}
+.secondTextDis {
+  width: 100vh;
+  text-align: justify;
+}
+}

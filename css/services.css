@@ -1,0 +1,215 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header a {
+  color: aquamarine;
+}
+header {
+  background-color: white;
+  color: aquamarine;
+  padding-top: 0px;
+  padding: 10px 70px;
+}
+.logo {
+  color: aquamarine;
+}
+.show{
+  color: white;
+}
+.fBgDis {
+  background-image: url("../asset/service-bg.png");
+  background-repeat: no-repeat;
+  /* background-size: 1700px; */
+  border: 2px solid transparent;
+  padding: 10px 70px;
+}
+.imgDown {
+  margin-top: 150px;
+  color: white;
+  font-size: 28px;
+}
+.secondServ {
+  margin-top: 60px;
+  padding: 10px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.miniblk {
+  width: 30%;
+}
+.miniblk p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.miniblk h3 {
+  margin: 10px 0px;
+}
+button {
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  border: none;
+  color: white;
+}
+.thirdServ {
+  padding: 10px 70px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.blk {
+  position: relative;
+}
+.blkText {
+  position: absolute;
+  top: 30px;
+  margin-left: 15px;
+  color: white;
+}
+.blkText p {
+  font-size: 20px;
+}
+.blkText h2 {
+  font-size: 25px;
+}
+.trans {
+  background-color: transparent;
+  border: 1px solid aquamarine;
+  margin-top: 10px;
+}
+.fourfour{
+  background-image: url("../asset/facilities.png");
+  background-repeat: no-repeat;
+}
+.fourServ {
+
+  padding: 10px 70px;
+ 
+}
+.fourText{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 105px;
+  margin-bottom: 150px;
+ 
+}
+.servBox{
+  padding:19px 120px ;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px 0px;
+  margin-right: 10px;
+  width: 65%;
+
+}
+.servOne,.servTwo{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.textwhite{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.fourServ2{
+  margin: 20px 0px;
+  padding: 10px 70px;
+}
+.firstServ{
+text-align: center;
+margin-bottom: 20px;
+}
+.minconServ{
+  display: flex;
+gap: 20px;
+  align-items: flex-start;
+}
+.container{
+  display: grid;
+  gap: 15px;
+align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+}
+.minconServ p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.minconServ h2{
+  font-size: 28px;
+}
+
+@media screen and (max-width:600px) {
+ 
+  .secondServ {
+    /* margin-top: 60px;
+    padding: 10px 70px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .miniblk{
+    width: 100%;
+  }
+  .thirdServ {
+    /* padding: 10px 70px;
+    margin-top: 70px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 25px;
+  }
+
+  .fourText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+  margin-top: 0px;
+    /* margin-top: 105px; */
+    margin-bottom: 150px;
+   
+  }
+  .servOne,.servTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    
+}
+.servBox{
+  padding:19px 120px ;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px 0px;
+  margin-right: 10px;
+  width: 65%;
+
+
+}
+.fourServ {
+  padding: 10px 70px;
+}
+.fourfour{
+  background-image: url("../asset/facilities.png");
+  background-repeat: no-repeat;
+width: 500px;
+height:
+ 2500px;
+}
+}

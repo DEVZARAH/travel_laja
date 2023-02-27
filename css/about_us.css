@@ -1,0 +1,157 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: white;
+  color: gray;
+  padding-top: 0px;
+  padding: 10px 70px;
+}
+header a {
+  color: gray;
+}
+.logo {
+  color: gray;
+}
+.fBgAbout {
+  background-image: url("../asset/about-bg.png");
+  background-repeat: no-repeat;
+  padding: 10px 70px;
+  border: 2px solid transparent;
+}
+.imgDown {
+  margin-top: 200px;
+  color: white;
+  font-size: 25px;
+}
+/* .aboutUsSec p{
+  color: gray;
+} */
+.centerNews{
+  text-align: center;
+  padding: 10px 70px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: gray;
+}
+.centerNews h2{
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: black;
+}
+.big{
+  color: black;
+  font-size: 22px;
+  margin: 10px 0px;
+}
+.flexAbout {
+  padding: 10px 70px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+.teamText{
+  margin-top: 100px;
+}
+.teamText h2{
+  font-size: 30px;
+
+  font-weight: bold;
+  color: black;
+
+}
+.teamText p{
+  font-size: 20px;
+  color: gray;
+}
+.small{
+  font-size: 20px;
+  color: gray;
+}
+.sec2{
+  padding: 10px 70px;
+  display: flex;
+}
+.firstAboutUs{
+  margin-top: 90px;
+}
+.firstAboutUs p{
+  font-size: 22px;
+line-height: 28px;
+margin: 20px 0px;
+color: gray;
+}
+.firstAboutUs h2{
+  font-size: 30px;
+}
+.team{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+  align-items: center;
+  margin: 20px 0px;
+}
+.teams{
+  padding: 10px 70px;
+}
+.secImg{
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+.secImg h3{
+  font-size: 18px;
+  color: gray;
+}
+.down h3{
+  margin-top: 22px;
+}
+.down2 h3{
+  margin-top: 28px;
+}
+@media screen and (max-width:600px) {
+  nav{
+    display: none;
+  }
+  .last{
+    display: none;
+  }
+  .flexAbout {
+    padding: 10px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  .sec2{
+    padding: 10px 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .team{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 30px;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .secImg{
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+  }
+
+}

@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: white;
+  color: gray;
+  padding-top: 0px;
+  padding: 10px 70px;
+}
+header a {
+  color: gray;
+}
+.logo {
+  color: gray;
+}
+.fBgAbout {
+  background-image: url("../asset/contact-bg.png");
+  background-repeat: no-repeat;
+  padding: 10px 70px;
+  border: 2px solid transparent;
+}
+.imgDown {
+  margin-top: 200px;
+  color: white;
+  font-size: 25px;
+}
+.contactSec {
+  display: flex;
+  padding: 10px 70px;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 50px 0px;
+}
+.firstRowFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.oneRowFlex {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.oneRowFlex h4 {
+  font-size: 20px;
+}
+.contactSec h1 {
+  color: black;
+  margin: 10px 0px;
+}
+input {
+  display: block;
+  padding: 10px ;
+  border-radius: 10px;
+  width: 100%;
+  /* width: 200px;
+  max-width: 300px; */
+}
+.trail{
+  width: 100%;
+  max-width: 1024px;
+}
+
+textarea{
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.contactText{
+flex-basis: 60%;
+}
+.contactText h2{
+  font-size: 30px;
+}
+.contactText p{
+  font-size: 20px;
+  color: gray;
+  margin: 10px 0px;
+}
+.btnUs{
+padding: 7px 25px;
+border-radius: 5px;
+background-color: aquamarine;
+border: 2px solid aquamarine;
+color: white;
+margin: 10px 0px;
+font-size: 15px;
+}
+@media screen  and (max-width:600px){
+  .contactSec {
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px 70px; */
+    justify-content: space-between;
+    gap: 15px;
+    margin: 50px 0px;
+  }
+  .oneRowFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px;
+    border: 2px solid red;
+  }
+  .holder{
+    border: 2px solid green;
+    padding: 10px 0px;
+    width: 500px;
+  }
+.time{
+  border: 2px solid yellow;
+  margin-right: 30px;
+  width: 150px;
+}
+}
