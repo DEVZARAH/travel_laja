@@ -3,6 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
+main{
+  width: 95%;
+  margin: 0 auto;
+}
 header a {
   color: gray;
 }
@@ -12,6 +16,7 @@ header {
   padding-top: 0px;
   padding: 10px 70px;
 }
+
 .logo {
   color: gray;
 }
@@ -19,6 +24,7 @@ header {
   background-image: url("../asset/news-bg.png");
   background-repeat: no-repeat;
   padding: 10px 70px;
+  background-size: cover;
   border: 2px solid transparent;
 }
 .imgDown {
@@ -82,7 +88,7 @@ font-weight: bold;
 .minconNews p {
   margin: 10px 0;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
 .down{
   font-size: 20px;
   margin-top: 20px;

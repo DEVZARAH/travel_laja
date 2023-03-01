@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+main{
+  width: 95%;
+  margin: 0 auto;
+}
 header a {
   color: aquamarine;
 }
@@ -12,6 +16,7 @@ header {
   padding-top: 0px;
   padding: 10px 70px;
 }
+
 .logo {
   color: aquamarine;
 }
@@ -25,6 +30,7 @@ p {
   background-image: url("../asset/discover-bg.png");
   background-repeat: no-repeat;
   /* background-size: 1700px; */
+  background-size: cover;
   border: 2px solid transparent;
   padding: 10px 70px;
 }
@@ -44,6 +50,20 @@ p {
 .secondTextDis p{
   margin: 15px 0px;
   line-height: 25px;
+  max-width: 700px;
+}
+.map2{
+  max-width: 700px;
+}
+.map2 img{
+  width: 100%;
+}
+.third{
+  border: 2px solid green;
+
+}
+.half{
+  border: 2px solid yellow;
 }
 .flexone {
   display: flex;
@@ -51,6 +71,7 @@ p {
   align-items: center;
   gap: 40px;
   padding: 10px 70px;
+  border: 2px solid red;
 }
 .one1 {
   display: flex;
@@ -67,6 +88,7 @@ p {
 .col{
   color: aquamarine;
 }
+
 .halfText {
   width: 700px;
   line-height: 25px;
@@ -108,7 +130,7 @@ p {
   justify-content: space-between;
   max-width: 100%;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
   .secondDis {
   margin: 0px;
   display: flex;
@@ -124,8 +146,5 @@ p {
   gap: 40px;
   /* padding: 10px 70px; */
 }
-.secondTextDis {
-  width: 100vh;
-  text-align: justify;
-}
+
 }

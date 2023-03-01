@@ -3,18 +3,19 @@
   margin: 0%;
   padding: 0%;
 }
-body{
-  
-  /* width: 100%vw; */
+main{
+  width: 95%;
+  margin: 0 auto;
+
 }
 a {
   text-decoration: none;
   color: white;
 }
-main {
+/* main {
   width: 100%;
   margin: 0 auto;
-}
+} */
 header {
   display: flex;
   align-items: center;
@@ -22,6 +23,7 @@ header {
   padding-top: 0px;
   padding: 10px 70px;
 }
+
 .logo {
   font-size: 35px;
   margin: 0px;
@@ -44,6 +46,7 @@ nav {
   background-image: url("../asset/Background.png");
   padding-bottom: 100px;
 margin-right: 0px;
+background-size: cover;
   background-repeat: no-repeat;
 }
 h1 {
@@ -67,6 +70,13 @@ h1 {
 /* .hold{
     position: relative;
 } */
+
+.map{
+  max-width: 700px;
+}
+.map img{
+  width: 100%;
+}
 .boxxx {
   padding: 20px;
   border-radius: 10px;
@@ -104,6 +114,7 @@ h1 {
 }
 .secondText {
   padding-left: 30px;
+  width: 500px;
 }
 h3,
 h2 {
@@ -223,7 +234,7 @@ padding-bottom: 30px;
   margin-top: 15px;
   font-size: 30px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 nav{
   display: none;
 }

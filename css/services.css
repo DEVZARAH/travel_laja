@@ -3,6 +3,10 @@
   margin: 0px;
   box-sizing: border-box;
 }
+main{
+  width: 95%;
+  margin: 0 auto;
+}
 header a {
   color: aquamarine;
 }
@@ -12,6 +16,7 @@ header {
   padding-top: 0px;
   padding: 10px 70px;
 }
+
 .logo {
   color: aquamarine;
 }
@@ -23,6 +28,7 @@ header {
   background-repeat: no-repeat;
   /* background-size: 1700px; */
   border: 2px solid transparent;
+  background-size: cover;
   padding: 10px 70px;
 }
 .imgDown {
@@ -86,6 +92,7 @@ button {
 .fourfour{
   background-image: url("../asset/facilities.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .fourServ {
 
@@ -109,6 +116,7 @@ button {
   margin: 5px 0px;
   margin-right: 10px;
   width: 65%;
+  height: 150px;
 
 }
 .servOne,.servTwo{
@@ -150,7 +158,7 @@ align-items: center;
   font-size: 28px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
  
   .secondServ {
     /* margin-top: 60px;
@@ -192,24 +200,16 @@ align-items: center;
     
 }
 .servBox{
-  padding:19px 120px ;
-  border: 2px solid red;
-  border-radius: 10px;
-  background-color: white;
-  margin: 5px 0px;
-  margin-right: 10px;
-  width: 65%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 
 }
 .fourServ {
   padding: 10px 70px;
 }
-.fourfour{
-  background-image: url("../asset/facilities.png");
-  background-repeat: no-repeat;
-width: 500px;
-height:
- 2500px;
-}
+
 }
