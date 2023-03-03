@@ -49,8 +49,8 @@ p {
 }
 .secondTextDis p{
   margin: 15px 0px;
-  line-height: 25px;
-  max-width: 700px;
+  line-height: 24px;
+
 }
 .map2{
   max-width: 700px;
@@ -90,9 +90,9 @@ p {
 }
 
 .halfText {
-  width: 700px;
-  line-height: 25px;
   margin: 15px 0px;
+  line-height: 24px;
+
 }
 .sameimg {
   display: flex;
@@ -113,7 +113,7 @@ p {
   color: white;
 }
 .try p {
-  font-size: 22.4px;
+  font-size: 1.3em;
   margin-top: 15px;
   color: white;
 }
@@ -131,6 +131,10 @@ p {
   max-width: 100%;
 }
 @media screen and (max-width:767px) {
+  /* .flexone{
+    text-align: center;
+  } */
+ 
   .secondDis {
   margin: 0px;
   display: flex;
@@ -139,6 +143,11 @@ p {
   gap: 10px;
   /* padding: 10px 70px; */
 }
+.secondTextDis p{
+ padding: 10px 0px;
+  margin-left: 0px;
+}
+
 .flexone {
   display: flex;
   flex-direction: column;

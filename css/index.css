@@ -235,6 +235,9 @@ padding-bottom: 30px;
   font-size: 30px;
 }
 @media screen and (max-width: 767px) {
+  main{
+    margin: 0 auto;
+  }
 nav{
   display: none;
 }
