@@ -159,6 +159,12 @@ align-items: center;
 }
 
 @media screen and (max-width:767px) {
+  main{
+    margin: 0 auto;
+  }
+  header{
+    background-color: aliceblue;
+  }
  
   .secondServ {
     /* margin-top: 60px;

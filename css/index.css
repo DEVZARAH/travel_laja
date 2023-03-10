@@ -8,6 +8,21 @@ main{
   margin: 0 auto;
 
 }
+/* .bar{
+  display: none;
+}
+.brand{
+  display: none;
+}
+.mob_hide{
+  display: none;
+} */
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
 a {
   text-decoration: none;
   color: white;
@@ -41,6 +56,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+}
+.links a{
+  display: none;
 }
 .fBg {
   background-image: url("../asset/Background.png");
@@ -238,8 +256,55 @@ padding-bottom: 30px;
   main{
     margin: 0 auto;
   }
+
+.logo{
+    display: none;
+  }
+  .mob_hide{
+    display: none;
+    
+  }
 nav{
   display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+color:white;
+  cursor: pointer;
+}
+.brand{
+  max-width: 180px;
+  margin-top: 40px;
+}
+.navbar_container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto; 
+  font-size: 14.5px;
+  gap: 30px;
+ flex-wrap: wrap;
+
+}
+.links {
+
+  display: flex;
+  flex-direction: column; 
+ justify-content: flex-start;
+  gap: 0;
+  width: 500px;
+}
+.links a {
+  display: block;
+  border-bottom: 1px solid aquamarine;
+  width: 70%;
+  padding: 10px 0;
+  text-align: center;
+  color: aqua;
 }
 .last{
   display: none;
@@ -247,7 +312,7 @@ nav{
 h1{
   font-size: 40.5px;
   color: white;
-text-align: center;
+/* text-align: center; */
 }
 .headerText p {
 width: 450px;

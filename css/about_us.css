@@ -123,6 +123,9 @@ color: gray;
   margin-top: 28px;
 }
 @media screen and (max-width:767px) {
+  header{
+    background-color: antiquewhite;
+  }
   nav{
     display: none;
   }
