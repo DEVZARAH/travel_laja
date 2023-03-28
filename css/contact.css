@@ -47,7 +47,7 @@ justify-content: space-between;
   width: 100%;
 }
 .contactText{
-  width: 500px;
+  max-width: 500px;
 }
 .contactUs{
   width: 500px;
@@ -68,6 +68,9 @@ justify-content: space-between;
 .contactSec h1 {
   color: black;
   margin: 10px 0px;
+}
+.form{
+  width: 500px;
 }
 input {
   display: block;
@@ -105,6 +108,7 @@ color: white;
 margin: 10px 0px;
 font-size: 15px;
 }
+
 @media screen  and (max-width:767px){
   header{
     background-color: aliceblue;
@@ -116,6 +120,12 @@ font-size: 15px;
     gap: 15px;
     margin: 50px 0px;
   }
+  .formText{
+    width: 350px;
+  }
+  .form{
+width: 350px;
+  }
   .oneRowFlex {
     display: flex;
     align-items: center;
@@ -126,16 +136,22 @@ font-size: 15px;
 max-width: 480px;
   
   }
-  .contactUs{
-    max-width: 500px;
-  }
+
   .map img{
     max-width: 450px;
   }
   input{
     max-width:480px;
   }
-
+textarea{
+width: 350px;
+  resize: both;
+}
+.firstRowFlex{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .time{
 
   margin-right: 30px;

@@ -45,33 +45,28 @@ p {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  padding: 10px 70px;
+  /* padding: 10px 70px; */
 }
 .secondTextDis p{
   margin: 15px 0px;
   line-height: 24px;
+  /* max-width: 700px; */
 
 }
+/*  */
 .map2{
-  max-width: 700px;
+  max-width: 800px;
 }
 .map2 img{
   width: 100%;
-}
-.third{
-  border: 2px solid green;
-
-}
-.half{
-  border: 2px solid yellow;
+border: 2px solid yellow;
 }
 .flexone {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   gap: 40px;
-  padding: 10px 70px;
-  border: 2px solid red;
+  /* padding: 10px 70px; */
 }
 .one1 {
   display: flex;
@@ -127,8 +122,13 @@ p {
 }
 .imgthird {
   display: flex;
-  justify-content: space-between;
-  max-width: 100%;
+  /* justify-content: space-between; */
+  /* max-width: 100%; */
+  gap: 20px;
+  width: 100%;
+}
+.imgthird img{
+  max-width: 400px;
 }
 @media screen and (max-width:767px) {
   header{
@@ -144,10 +144,8 @@ p {
   }
  main{
   margin: 0 auto;
- }
- .halfText{
-  border: 2px solid rebeccapurple;
-
+  width: 95%;
+ margin: 0px 20px;
  }
   .secondDis {
   margin: 0px;
@@ -157,11 +155,22 @@ p {
   gap: 10px;
   /* padding: 10px 70px; */
 }
-.secondTextDis p{
- padding: 10px 0px;
-  margin-left: 0px;
+.secondImg{
+  max-width: 500px;
 }
-
+.secondImg img{
+  width: 100%;
+}
+.map2{
+  max-width: 390px;
+}
+.imgthird{
+  display: flex;
+  flex-direction: column;
+}
+.imgthird img{
+  max-width: 350px;
+}
 .flexone {
   display: flex;
   flex-direction: column;

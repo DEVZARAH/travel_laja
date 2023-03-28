@@ -37,7 +37,7 @@ header a {
 } */
 .centerNews{
   text-align: center;
-  padding: 10px 70px;
+  /* padding: 10px 70px; */
   margin-bottom: 30px;
   font-size: 20px;
   color: gray;
@@ -54,12 +54,14 @@ header a {
   margin: 10px 0px;
 }
 .flexAbout {
-  padding: 10px 70px;
+  
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   text-align: center;
   align-items: center;
+}
+.down{
+  margin-top: 20px;
 }
 .teamText{
   margin-top: 100px;
@@ -80,7 +82,7 @@ header a {
   color: gray;
 }
 .sec2{
-  padding: 10px 70px;
+  /* padding: 10px 70px; */
   display: flex;
 }
 .firstAboutUs{
@@ -95,18 +97,28 @@ color: gray;
 .firstAboutUs h2{
   font-size: 30px;
 }
+.imgAboutUs{
+  margin-top: 20px;
+  width: 100%;
+}
+.imgAboutUs img{
+  max-width: 700px;
+}
 .team{
   display: flex;
-  /* justify-content: space-between; */
-  gap: 30px;
+  justify-content: space-between;
+  /* gap: 30px; */
   align-items: center;
   margin: 20px 0px;
 }
-.teams{
-  padding: 10px 70px;
+.teamCon{
+  width: 100%;
+}
+.teamCon img{
+  max-width: 500px;
 }
 .secImg{
-  padding: 10px 100px;
+  /* padding: 10px 50px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -122,6 +134,7 @@ color: gray;
 .down2 h3{
   margin-top: 28px;
 }
+
 @media screen and (max-width:767px) {
   header{
     background-color: antiquewhite;
@@ -133,16 +146,16 @@ color: gray;
     display: none;
   }
   .flexAbout {
-    padding: 10px 70px;
+    /* padding: 10px 70px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
   }
   .sec2{
-    padding: 10px 70px;
+    /* padding: 10px 70px; */
     display: flex;
     flex-direction: column;
   }
@@ -152,7 +165,11 @@ color: gray;
     /* justify-content: space-between; */
     gap: 30px;
     align-items: center;
+    text-align: center;
     margin: 20px 0px;
+  }
+  .teamCon img{
+    max-width: 700px;
   }
   .secImg{
     padding: 10px 100px;
