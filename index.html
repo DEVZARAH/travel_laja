@@ -32,17 +32,14 @@
             </div>
           </div>
 
-        <div class="navbar_container hide">
-          <div class="brand">
-            <h1>travelaja</h1>
+          <div class="navbar_container hide">
+            <div class="brand">
+              <h1>travelaja</h1>
+            </div>
+            <div class="bar">
+              <p onclick="showNav()">&#9776;</p>
+            </div>
           </div>
-          <div class="bar">
-            <p onclick="showNav()">&#9776;</p>
-          </div>
-    
-        </div>
-   
-
         </header>
         <div id="navLinks" class="mob_hide">
           <nav class="linkss">
@@ -53,9 +50,8 @@
             <a href="about_us.html">About Us</a>
             <a href="contact.html">Contact</a>
           </nav>
-
         </div>
-     
+
         <div class="headerText">
           <h1>Explore the world with a smile</h1>
           <p class="headText">
@@ -65,31 +61,25 @@
             leo.
           </p>
           <div class="boxxx">
-           <div>
-      <input type="text"
-placeholder="Destination" class="input">
-    </div>
-    <div>
-  <input type="text"
-placeholder="Date of stay" class="input">
-</div>
-<div>
-  <input type="text"
-placeholder="person" class="input">
-</div>
-<button class="btn mobBtn">
-
-  Find trip
-<img src="asset/search.png" alt="">
-</button>
-
-</div> 
-</div>
-
-</div>
+            <div>
+              <input type="text" placeholder="Destination" class="input" />
+            </div>
+            <div>
+              <input type="text" placeholder="Date of stay" class="input" />
+            </div>
+            <div>
+              <input type="text" placeholder="person" class="input" />
+            </div>
+            <button class="btn mobBtn">
+              Find trip
+              <img src="asset/search.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
       <div class="second">
         <div class="images">
-          <div class="map"> 
+          <div class="map">
             <img src="asset/travellers-point.png" alt="" />
           </div>
         </div>
@@ -147,7 +137,6 @@ placeholder="person" class="input">
                   <p>7 days for trips</p>
                 </div>
               </div>
-            
             </div>
           </div>
           <div class="box">
@@ -333,7 +322,7 @@ placeholder="person" class="input">
         <div class="foot">
           <div class="one">
             <div class="word">
-              <h2  class="logo">travelaja</h2>
+              <h2 class="logo">travelaja</h2>
               <p class="logoText">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam, purus sit amet luctus venenatis, lectus magna fringilla
@@ -354,28 +343,30 @@ placeholder="person" class="input">
           </div>
           <div class="three">
             <h3>Services</h3>
-          <div class="links">
-            <a href="#">About Us</a>
-            <a href="">Blogs & Articles</a>
-            <a href="">Terms & Conditions</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Contact Us</a>
-          </div>
+            <div class="links">
+              <a href="#">About Us</a>
+              <a href="">Blogs & Articles</a>
+              <a href="">Terms & Conditions</a>
+              <a href="">Privacy Policy</a>
+              <a href="">Contact Us</a>
+            </div>
           </div>
           <div class="four">
             <h3>Contact</h3>
-         <div class="links">
-          <p>Address: Jl.Codelaras No.205A Kediri, Pare AG17</p>
-          <p>Phone: 123 456 7890</p>
-          <p>Email:<br>
-            myagungperdana@gmail.com</p>
-            <p>Maps: Kediri, East java</p>
-         </div>
+            <div class="links">
+              <p>Address: Jl.Codelaras No.205A Kediri, Pare AG17</p>
+              <p>Phone: 123 456 7890</p>
+              <p>
+                Email:<br />
+                myagungperdana@gmail.com
+              </p>
+              <p>Maps: Kediri, East java</p>
+            </div>
           </div>
         </div>
-        
+
         <div class="icon">
-          <h3> Recreated by DevZarah2022/2023</h3>
+          <h3>Recreated by DevZarah2022/2023</h3>
           <div class="tag">
             <img src="asset/instagram.png" alt="" />
             <img src="asset/facebook.png" alt="" />
@@ -386,19 +377,17 @@ placeholder="person" class="input">
         </div>
       </footer>
     </main>
-
-
     <script>
-      const navLinks = document.getElementById('navLinks');
-              function showNav() {
-                      if (window.innerWidth > 600) {
-                              navLinks.classList.remove('mob_hide')
-                      } else {
-                              navLinks.classList.toggle('mob_hide');
-                      }
+      const navLinks = document.getElementById("navLinks");
+      function showNav() {
+        if (window.innerWidth > 600) {
+          navLinks.classList.remove("mob_hide");
+        } else {
+          navLinks.classList.toggle("mob_hide");
+          console.log("Here now")
+        }
       }
-      window.addEventListener('resize', showNav)
-      
-  </script>
+      window.addEventListener("resize", showNav);
+    </script>
   </body>
 </html>
